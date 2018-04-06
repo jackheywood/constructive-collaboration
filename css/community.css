@@ -1,0 +1,14 @@
+.community-list > ul {
+    list-style-type: none;
+    font-size: small;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+.community-list > ul > li {
+    color: #254F56;
+}
+
+.community-list > ul > .list-title {
+    color: #25BBC3;
+}

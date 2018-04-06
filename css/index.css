@@ -1,0 +1,79 @@
+h1 {
+    color: #FB795D;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: #25BBC3;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p {
+    font-size: larger;
+}
+
+.dark-text-panel {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.light-text-panel {
+    color: #254F56;
+    font-weight: bold;
+}
+
+.orange-link {
+    color: #FB795D;
+}
+
+.orange-link:hover {
+    color: #FB795D;
+}
+
+.white-link {
+    color: #FFFFFF;
+}
+
+.white-link:hover {
+    color: #FFFFFF;
+}
+
+.contact {
+    color: #9AACB6;
+}
+
+.contact a {
+    color: #9AACB6;
+}
+
+.contact a:hover {
+    color: #9AACB6;
+}
+
+.content {
+    background-color: #FAF8F4;
+    min-height: 80vh;
+    padding: 4rem 5rem;
+}
+
+.footer {
+    position: fixed;
+    font-size: larger;
+    bottom: 0;
+    width: 100%;
+    padding: 0 5rem;
+    height: 8vh;
+    background-color: #FFFFFF;
+}
+
+.footer > .container-fluid> .row {
+    height: 8vh;
+}
+
+.caption {
+    font-size: medium;
+    color: #9AACB6;
+}

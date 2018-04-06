@@ -1,0 +1,49 @@
+/// @param {Integer} $item-count - Number of items on the circle
+/// @param {Length} $circle-size - Large circle size
+/// @param {Length} $item-size - Single item size
+@mixin on-circle($item-count, $circle-size, $max-size) {
+    position: relative;
+    width: $circle-size;
+    height: $circle-size;
+    max-width: $max-size;
+    max-height: $max-size;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    >img {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: $circle-size / 3;
+        height: $circle-size / 3;
+        margin: -($circle-size / 6);
+        max-width: $max-size / 3;
+        max-height: $max-size / 3;
+        $angle: (360 / $item-count);
+        $rot: -90;
+        @for $i from 1 through $item-count {
+            &:nth-of-type(#{$i}) {
+                transform: rotate($rot * 1deg) translate(150%) rotate($rot * -1deg);
+            }
+            $rot: $rot+$angle;
+        }
+    }
+    >h1 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.circle-container {
+    @include on-circle($item-count: 7, $circle-size: 30vw, $max-size: 48vh);
+    margin: 13vh auto 0;
+    background-color: #FFFFFF;
+    img {
+        display: block;
+        border: none;
+    }
+}

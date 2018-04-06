@@ -1,0 +1,52 @@
+.core-team-row {
+    min-height: 75vh;
+}
+
+.team-member {
+    display: block;
+    position: absolute;
+    max-width: 70%;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.andrew {
+    left: 30%;
+    top: 2%;
+}
+
+.hilary {
+    left: 30%;
+    top: 25%;
+}
+
+.andrew-k {
+    left: 30%;
+    top: 50%;
+}
+
+.ruby {
+    left: 30%;
+    top: 70%;
+}
+
+.bengt {
+    top: 20%;
+}
+
+.emily {
+    top: 50%;
+}
+
+.reiner {
+    top: 70%;
+}
+
+.name {
+    color: #25BBC3;
+    margin-bottom: 0;
+}
+
+.description {
+    color: #254F56;
+}
