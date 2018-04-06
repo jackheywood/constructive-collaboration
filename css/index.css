@@ -1,3 +1,7 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
 h1 {
     color: #FB795D;
     font-size: xx-large;
@@ -14,15 +18,21 @@ p {
     font-size: larger;
 }
 
-.dark-text-panel {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #FFFFFF;
+.text-panel {
     font-weight: bold;
+    padding: 0 2rem;
 }
 
-.light-text-panel {
+.text-panel-dark {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transform: translateY(-2rem);   
+}
+
+.text-panel-light {
     color: #254F56;
-    font-weight: bold;
 }
 
 .orange-link {
@@ -56,7 +66,8 @@ p {
 .content {
     background-color: #FAF8F4;
     min-height: 80vh;
-    padding: 4rem 5rem;
+    padding: 8vh 5vw 0 5vw;
+    margin-bottom: 8vh;
 }
 
 .footer {

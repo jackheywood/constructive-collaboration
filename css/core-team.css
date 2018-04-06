@@ -1,3 +1,7 @@
+.core-team-content {
+    padding-top: 4vh;
+}
+
 .core-team-row {
     min-height: 75vh;
 }
@@ -5,28 +9,23 @@
 .team-member {
     display: block;
     position: absolute;
-    max-width: 70%;
     font-weight: bold;
     font-size: 0.85rem;
 }
 
 .andrew {
-    left: 30%;
     top: 2%;
 }
 
 .hilary {
-    left: 30%;
-    top: 25%;
+    top: 28%;
 }
 
 .andrew-k {
-    left: 30%;
     top: 50%;
 }
 
 .ruby {
-    left: 30%;
     top: 70%;
 }
 

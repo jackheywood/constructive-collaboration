@@ -1,5 +1,6 @@
 .dropdown:hover>.dropdown-menu {
     display: block;
+    background-color: rgba(0,0,0,0);
 }
 
 .dropdown>.deopdown-toggle:active {
@@ -23,9 +24,17 @@
     color: #254F56;
 }
 
+.nav-item {
+    display: table;
+    height: 12vh;
+}
+
 .nav-link {
     color: #9AACB6;
     font-size: larger;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .active>.nav-link {
