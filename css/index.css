@@ -1,21 +1,22 @@
 body {
     font-family: "Raleway", sans-serif;
+    font-size: 16px;
 }
 
 h1 {
     color: #FB795D;
-    font-size: xx-large;
+    font-size: 250%;
     font-weight: bold;
 }
 
 h2 {
     color: #25BBC3;
-    font-size: xx-large;
+    font-size: 200%;
     font-weight: bold;
 }
 
 p {
-    font-size: larger;
+    font-size: 125%;
 }
 
 .text-panel {
@@ -72,7 +73,7 @@ p {
 
 .footer {
     position: fixed;
-    font-size: larger;
+    font-size: 125%;
     bottom: 0;
     width: 100%;
     padding: 0 5rem;
@@ -85,6 +86,6 @@ p {
 }
 
 .caption {
-    font-size: medium;
+    font-size: 100%;
     color: #9AACB6;
 }

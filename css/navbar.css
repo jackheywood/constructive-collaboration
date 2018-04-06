@@ -12,37 +12,41 @@
 }
 
 .navbar {
-    height: 12vh;
+    min-height: 12vh;
+    margin: 0 5vw;
+    padding: 0 2rem;
 }
 
 .navbar-brand {
-    color: #254F56;
-    font-size: xx-large;
+    color: #254F56 !important;
+    font-size: 250%;
+    height: 12vh;
+    line-height: 12vh;
 }
 
 .navbar-brand:hover {
-    color: #254F56;
+    color: #254F56 !important;
 }
 
 .nav-item {
-    display: table;
     height: 12vh;
+    display: table;
 }
 
 .nav-link {
-    color: #9AACB6;
-    font-size: larger;
+    color: #9AACB6 !important;
+    font-size: 150%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 
 .active>.nav-link {
-    color: #FB795D;
+    color: #FB795D !important;
 }
 
 .nav-link:hover {
-    color: #FB795D;
+    color: #FB795D !important;
 }
 
 .dropdown-triangle {
