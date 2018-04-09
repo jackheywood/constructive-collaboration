@@ -80,3 +80,10 @@
 .dropdown-item+.dropdown-item {
     border-top: 1px solid white;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 125%;
+        margin-right: 0;
+    }
+}
