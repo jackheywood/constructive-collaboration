@@ -1,0 +1,70 @@
+
+.desktop-footer {
+    position: fixed;
+    display: block;
+    font-size: 100%;
+    bottom: 0;
+    width: 100%;
+    font-weight: 500;
+    padding: 0;
+    height: 8vh;
+    background-color: #FFFFFF;
+}
+
+.mobile-footer {
+    padding-top: 20vh;
+    display: none;
+    position: fixed;
+    font-size: 75%;
+    line-height: 120%;
+    bottom: 0;
+    width: 100%;
+    font-weight: 500;
+    padding: 0;
+    height: 15vh;
+    background-color: rgba(255, 255, 255);
+}
+
+.contact {
+    color: #9AACB6;
+}
+
+.contact a {
+    color: #9AACB6;
+}
+
+.contact a:hover {
+    color: #9AACB6;
+}
+
+.mobile-footer > .container-fluid {
+    padding: 0;
+}
+
+.mobile-link {
+    display: block;
+}
+
+.desktop-footer > .container-fluid> .row {
+    height: 8vh;
+}
+
+.mobile-footer > .container-fluid> .row {
+    height: 5vh;
+    padding-left: 7vw;
+}
+
+.middle-row {
+    border-top: 1px solid rgba(154, 172, 182, 0.5);  
+    border-bottom: 1px solid rgba(154, 172, 182, 0.5);    
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-footer {
+        display: none;
+    }
+    
+    .mobile-footer {
+        display: block;
+    }
+}

@@ -1,35 +1,40 @@
 body {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h1 {
     color: #FB795D;
-    font-size: 200%;
+    font-size: 190%;
+    line-height: 100%;
     font-weight: bold;
 }
 
 h2 {
     color: #25BBC3;
-    font-size: 200%;
+    font-size: 190%;
+    line-height: 100%;
     font-weight: bold;
 }
 
 p {
     font-size: 100%;
+    line-height: 110%;
 }
 
-.text-panel {
-    font-weight: bold;
-    padding: 0 2rem;
+.row {
+    margin: 0;
+}
+
+.row>div {
+    padding-left: 1.7vw;
+    padding-right: 0;
 }
 
 .text-panel-dark {
     background-color: rgba(0, 0, 0, 0.8);
     color: #FFFFFF;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    transform: translateY(-2rem);   
+    margin: -1.7vw;
+    padding: 1.7vw;
 }
 
 .text-panel-light {
@@ -52,40 +57,49 @@ p {
     color: #FFFFFF;
 }
 
-.contact {
-    color: #9AACB6;
-}
-
-.contact a {
-    color: #9AACB6;
-}
-
-.contact a:hover {
-    color: #9AACB6;
+.container-fluid {
+    padding: 0 8.7vw 0 7vw;
 }
 
 .content {
     background-color: #FAF8F4;
     min-height: 80vh;
-    padding: 8vh 5vw 0 5vw;
     margin-bottom: 8vh;
-}
-
-.footer {
-    position: fixed;
-    font-size: 100%;
-    bottom: 0;
-    width: 100%;
-    padding: 0 5rem;
-    height: 8vh;
-    background-color: #FFFFFF;
-}
-
-.footer > .container-fluid> .row {
-    height: 8vh;
+    padding-top: 8vh;
 }
 
 .caption {
     font-size: 80%;
     color: #9AACB6;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 160%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    p {
+        font-size: 90%;
+    }
+    .desktop-br {
+        display: none;
+    }
+    .content {
+        margin-bottom: 15vh;
+    }
+    .text-panel-dark {
+        margin: -3vw;
+        padding: 5vw;
+    }
+    .caption {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-br {
+        display: none;
+    }
 }

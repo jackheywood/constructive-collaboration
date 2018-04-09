@@ -1,8 +1,9 @@
 .community-list > ul {
     list-style-type: none;
-    font-size: 80%;
+    font-size: 75%;
+    line-height: 100%;
+    font-weight: 300;
     padding-left: 3rem;
-    font-weight: bold;
 }
 
 .community-list > ul > li {

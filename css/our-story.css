@@ -1,0 +1,27 @@
+.our-story-images {
+    padding-top: 3rem;
+}
+
+.our-story-image-desktop {
+    display: inline;
+}
+
+.our-story-image-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .our-story-image-mobile {
+        padding-top: 5vh;
+        display: inline;
+        padding-bottom: 8.7vw;
+    }
+
+    .our-story-image-desktop {
+        display: none;
+    }
+
+    .our-story-images {
+        padding-top: 1rem;
+    }
+}

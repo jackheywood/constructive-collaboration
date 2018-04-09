@@ -13,15 +13,24 @@
 
 .navbar {
     min-height: 12vh;
-    margin: 0 5vw;
-    padding: 0 2rem;
+    margin: 0 7vw;
+    padding: 0 1.7vw;
+}
+
+.navbar-brand-holder {
+    display: table;
 }
 
 .navbar-brand {
     color: #254F56 !important;
-    font-size: 250%;
+    font-size: 175%;
     height: 12vh;
     line-height: 12vh;
+    width: 26vw;
+    margin-right: 1.7vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
 }
 
 .navbar-brand:hover {
@@ -35,10 +44,15 @@
 
 .nav-link {
     color: #9AACB6 !important;
-    font-size: 120%;
+    font-size: 100%;
+    font-weight: 500;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 .active>.nav-link {
@@ -53,27 +67,32 @@
     margin-left: 10px;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #FB795D;
+    border-left: 0.6vw solid transparent;
+    border-right: 0.6vw solid transparent;
+    border-bottom: 0.6vw solid #FB795D;
 }
 
 .dropdown-menu {
+    position: fixed;
+    top: 12vh;
+    right: 7vw;
     border: none;
     left: 50%;
     right: auto;
     text-align: center;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -0.6vw);
 }
 
 .dropdown-item {
     background-color: #FB795D;
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
     padding: 1rem;
 }
 
 .dropdown-item:hover {
-    background-color: #FA6644;
+    background-color: #fd5a35;
     color: #FFFFFF;
 }
 
@@ -81,9 +100,51 @@
     border-top: 1px solid white;
 }
 
+.mobile-footer {
+    display: none;
+}
+
+@media only screen and (max-width: 1750px) {
+    .navbar-brand {
+        font-size: 160%;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .navbar-brand {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .navbar-brand {
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .navbar-brand {
+        font-size: 130%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .navbar-brand {
-        font-size: 125%;
+        font-size: 100%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .navbar-brand {
+        font-size: 90%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .navbar-brand {
+        font-size: 75%;
         margin-right: 0;
     }
 }

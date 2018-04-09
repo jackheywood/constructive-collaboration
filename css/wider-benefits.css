@@ -1,0 +1,19 @@
+.wider-benefits-image {
+    width: 100%;
+    padding-left: 1.7vw;
+}
+
+.wider-benefits-separate {
+    display: none;
+    width: 100%;
+}
+
+ @media only screen and (max-width: 600px) {
+    .wider-benefits-image {
+        display: none;
+    }
+
+    .wider-benefits-separate {
+        display: inline;
+    }
+ }

@@ -1,0 +1,17 @@
+.diagram-desktop {
+    display: block;
+}
+
+.diagram-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .diagram-desktop {
+        display: none;
+    }
+
+    .diagram-mobile {
+        display: block;
+    }
+}
