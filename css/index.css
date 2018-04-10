@@ -7,6 +7,7 @@ h1 {
     font-size: 190%;
     line-height: 100%;
     font-weight: bold;
+    margin-bottom: 3px;
 }
 
 h2 {
@@ -84,9 +85,6 @@ p {
     p {
         font-size: 90%;
     }
-    .content {
-        margin-bottom: 15vh;
-    }
     .text-panel-dark {
         margin: -3vw;
         padding: 5vw;
@@ -105,5 +103,11 @@ p {
 @media only screen and (min-width: 600px) {
     .mobile-br {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .content {
+        margin-bottom: 15vh;
     }
 }

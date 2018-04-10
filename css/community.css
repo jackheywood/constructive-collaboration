@@ -1,21 +1,40 @@
-.community-list > ul {
+.community-list {
     list-style-type: none;
-    font-size: 75%;
+    font-size: 90%;
     line-height: 100%;
     font-weight: 300;
     padding-left: 3rem;
 }
 
-.community-list > ul > li {
+.principle-supporters {
+    padding-left: 0;
+}
+
+.community-list>li {
     color: #254F56;
 }
 
-.community-list > ul > .list-title {
+.community-list>.list-title {
     color: #25BBC3;
+    font-weight: 500;
+}
+
+.hidden-sm-down {
+    display: none;
 }
 
 @media only screen and (max-width: 1200px) {
-    .community-list > ul {
+    .community-list {
         padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .hidden-md-up {
+        display: none;
+    }
+
+    .hidden-sm-down {
+        display: block
     }
 }
