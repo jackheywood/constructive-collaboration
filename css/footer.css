@@ -59,6 +59,10 @@
     border-bottom: 1px solid rgba(154, 172, 182, 0.5);    
 }
 
+.address-line {
+    display: none;
+}
+
 @media only screen and (min-width: 600px) {
     .mobile-footer {
         font-size: 90%;
@@ -78,5 +82,8 @@
 @media only screen and (min-width: 1725px) {
     .address-br {
         display: none;
+    }
+    .address-line {
+        display: inline;
     }
 }
