@@ -1,16 +1,24 @@
-.core-team-circle-image {
-    height: 70vh;
+.core-team-circle-large {
+    height: 700px;
+}
+
+.core-team-circle-small {
+    height: 60vh;
 }
 
 .core-team-content {
     padding-top: 4vh;
 }
 
-.core-team-row {
-    min-height: 75vh;
+.core-team-large {
+    min-height: 760px;
 }
 
-.team-member {
+.core-team-small {
+    display: none;
+}
+
+.team-member-large {
     display: block;
     position: absolute;
     font-weight: bold;
@@ -41,7 +49,7 @@
     top: 50%;
 }
 
-.reiner {
+.reinier {
     top: 74%;
 }
 
@@ -52,4 +60,21 @@
 
 .description {
     color: #254F56;
+}
+
+@media only screen and (max-width: 1786px) {
+    .core-team-large {
+        display: none;
+    }
+
+    .core-team-small {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .core-team-circle-small {
+        height: auto;
+        width: 100%;
+    }
 }

@@ -82,20 +82,23 @@
     margin-left: 10px;
     width: 0;
     height: 0;
-    border-left: 0.6vw solid transparent;
-    border-right: 0.6vw solid transparent;
-    border-bottom: 0.6vw solid #FB795D;
+    border-left: 1.5vh solid transparent;
+    border-right: 1.5vh solid transparent;
+    border-bottom: 1.5vh solid #FB795D;
+    transform: translateY(1px);
+    z-index: 1;
 }
 
 .dropdown-menu {
     position: fixed;
-    top: 12vh;
+    top: 10.5vh;
     right: 7vw;
     border: none;
     left: 50%;
     right: auto;
     text-align: center;
-    transform: translate(-50%, -0.6vw);
+    transform: translate(-50%, 0);
+    z-index: 2;
 }
 
 .dropdown-item {
