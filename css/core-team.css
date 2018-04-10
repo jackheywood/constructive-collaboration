@@ -1,3 +1,7 @@
+.core-team-circle-image {
+    height: 70vh;
+}
+
 .core-team-content {
     padding-top: 4vh;
 }
@@ -14,11 +18,11 @@
 }
 
 .andrew {
-    top: 2%;
+    top: 0%;
 }
 
 .hilary {
-    top: 28%;
+    top: 25%;
 }
 
 .andrew-k {
@@ -26,11 +30,11 @@
 }
 
 .ruby {
-    top: 70%;
+    top: 74%;
 }
 
 .bengt {
-    top: 20%;
+    top: 17%;
 }
 
 .emily {
@@ -38,7 +42,7 @@
 }
 
 .reiner {
-    top: 70%;
+    top: 74%;
 }
 
 .name {
