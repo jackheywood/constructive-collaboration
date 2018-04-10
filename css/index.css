@@ -84,9 +84,6 @@ p {
     p {
         font-size: 90%;
     }
-    .desktop-br {
-        display: none;
-    }
     .content {
         margin-bottom: 15vh;
     }
@@ -96,6 +93,12 @@ p {
     }
     .caption {
         font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 1690px) {
+    .desktop-br {
+        display: none;
     }
 }
 

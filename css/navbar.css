@@ -10,6 +10,7 @@
     transition: top 0.2s ease-in-out;
     width: 100%;
     z-index: 1;
+    min-height: 70px;
 }
 
 .nav-up {
@@ -60,7 +61,12 @@
 .nav-item-mobile {
     display: table;
     font-size: 80%;
-    height: 8vh;
+    height: 7.9vh;
+    background-color: #FCFCFC;
+}
+
+.nav-item-mobile+.nav-item-mobile {
+    border-bottom: 1px solid rgba(154, 172, 182, 0.5);
 }
 
 .nav-link {
@@ -131,13 +137,11 @@
 @media only screen and (min-width: 1200px) {
     .dropdown:hover>.dropdown-menu {
         display: block;
-        background-color: rgba(0,0,0,0);
+        background-color: rgba(0, 0, 0, 0);
     }
-    
     .dropdown>.deopdown-toggle:active {
         pointer-events: none;
     }
-
     .nav-item-mobile {
         display: none;
     }
@@ -169,7 +173,10 @@
 
 @media only screen and (max-width: 1200px) {
     .nav-item {
-        height: 10vh;
+        height: 9.6vh;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #EEEEEE;
     }
 }
 
