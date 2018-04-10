@@ -23,7 +23,9 @@ function hasScrolled() {
 
     if (st > lastScrollTop && st > navbarHeight) {
         $('#navbarNav').collapse('hide');
-        $('.navbar').removeClass('nav-down').addClass('nav-up');
+        setTimeout(() => { 
+            $('.navbar').removeClass('nav-down').addClass('nav-up'); 
+        }, 350); 
     } else {
         if (st + $(window).height() < $(document).height()) {
             $('.navbar').removeClass('nav-up').addClass('nav-down');

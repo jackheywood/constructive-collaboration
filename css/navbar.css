@@ -57,6 +57,12 @@
     display: table;
 }
 
+.nav-item-mobile {
+    display: table;
+    font-size: 80%;
+    height: 8vh;
+}
+
 .nav-link {
     color: #9AACB6 !important;
     font-size: 100%;
@@ -131,6 +137,10 @@
     .dropdown>.deopdown-toggle:active {
         pointer-events: none;
     }
+
+    .nav-item-mobile {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1750px) {
@@ -154,6 +164,12 @@
 @media only screen and (max-width: 1350px) {
     .navbar-brand {
         font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-item {
+        height: 10vh;
     }
 }
 
