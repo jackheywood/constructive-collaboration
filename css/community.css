@@ -13,3 +13,9 @@
 .community-list > ul > .list-title {
     color: #25BBC3;
 }
+
+@media only screen and (max-width: 1200px) {
+    .community-list > ul {
+        padding-left: 0;
+    }
+}

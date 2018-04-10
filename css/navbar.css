@@ -1,20 +1,19 @@
-.dropdown:hover>.dropdown-menu {
-    display: block;
-    background-color: rgba(0,0,0,0);
-}
-
-.dropdown>.deopdown-toggle:active {
-    pointer-events: none;
-}
-
 .dropdown-toggle::after {
     display: none;
 }
 
 .navbar {
-    min-height: 12vh;
-    margin: 0 7vw;
-    padding: 0 1.7vw;
+    height: 12vh;
+    padding: 0 8.7vw;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-up {
+    top: -12vh;
 }
 
 .navbar-brand-holder {
@@ -35,6 +34,22 @@
 
 .navbar-brand:hover {
     color: #254F56 !important;
+}
+
+.navbar-collapse.show {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-collapse.collapsing {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 12vh;
+    left: 0;
+    width: 100%;
 }
 
 .nav-item {
@@ -102,6 +117,17 @@
 
 .mobile-footer {
     display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+        background-color: rgba(0,0,0,0);
+    }
+    
+    .dropdown>.deopdown-toggle:active {
+        pointer-events: none;
+    }
 }
 
 @media only screen and (max-width: 1750px) {

@@ -8,12 +8,17 @@
     width: 100%;
 }
 
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+    .wider-benefits-image {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .wider-benefits-image {
         display: none;
     }
-
     .wider-benefits-separate {
         display: inline;
     }
- }
+}
