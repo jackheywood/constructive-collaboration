@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*?*
+
+Sitemap: https://constructivecollaboration.com/sitemap.xml
