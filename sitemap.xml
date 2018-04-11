@@ -5,63 +5,63 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-    <loc>https://constructivecollaboration.com/</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>1.00</priority>
+        <loc>https://constructivecollaboration.com/</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/purpose.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/purpose.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/our-story.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/our-story.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/commercial-services.html</loc>
-    <lastmod>2018-04-10T16:48:34+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/commercial-services.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/wider-benefits.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/wider-benefits.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/the-community.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/the-community.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/who-we-are.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/who-we-are.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/core-team.html</loc>
-    <lastmod>2018-04-10T16:48:34+00:00</lastmod>
-    <priority>0.80</priority>
+        <loc>https://constructivecollaboration.com/core-team.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/we-re-hiring!.html</loc>
-    <lastmod>2018-04-10T16:48:35+00:00</lastmod>
-    <priority>0.90</priority>
+        <loc>https://constructivecollaboration.com/we-re-hiring!.html</loc>
+        <lastmod>2018-04-11</lastmod>
+        <priority>0.90</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/resources/Collaborative%20Lead.pdf</loc>
-    <lastmod>2018-04-10T16:59:32+00:00</lastmod>
-    <priority>0.5</priority>
+        <loc>https://constructivecollaboration.com/resources/Collaborative%20Lead.pdf</loc>
+        <lastmod>2018-04-10</lastmod>
+        <priority>0.5</priority>
+    </url>
+        <url>
+        <loc>https://constructivecollaboration.com/resources/Business%20Director.pdf</loc>
+        <lastmod>2018-04-10</lastmod>
+        <priority>0.5</priority>
     </url>
     <url>
-    <loc>https://constructivecollaboration.com/resources/Business%20Director.pdf</loc>
-    <lastmod>2018-04-10T16:59:32+00:00</lastmod>
-    <priority>0.5</priority>
-    </url>
-    <url>
-    <loc>https://constructivecollaboration.com/resources/Equal%20Opportunities%20Monitoring.pdf</loc>
-    <lastmod>2018-04-10T16:59:32+00:00</lastmod>
-    <priority>0.64</priority>
+        <loc>https://constructivecollaboration.com/resources/Equal%20Opportunities%20Monitoring.pdf</loc>
+        <lastmod>2018-04-10</lastmod>
+        <priority>0.64</priority>
     </url>
 </urlset>
